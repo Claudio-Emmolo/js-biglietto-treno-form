@@ -1,9 +1,8 @@
-const km = document.querySelector("input#kilometers");
+const km = document.getElementById("kilometers");
 
-const age = document.querySelector("input#age");
+const age = document.getElementById("age");
 
-
-const button = document.querySelector("button")
+const button = document.getElementById("btn");
 
 
 //On click button
