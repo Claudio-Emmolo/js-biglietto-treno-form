@@ -41,6 +41,12 @@ h1{
     text-transform: uppercase;
 }
 
+.separator{
+    height: 3px;
+    width: 50%;
+    background-color: white;
+    margin: 2rem 0;
+}
 /* Buttons */
 .btn-decoration{
     padding: .5rem 2rem;
@@ -76,4 +82,15 @@ section#creation-tickets{
 
 span#price{
     border-bottom: 2px solid red;
+}
+
+
+/* Recup */
+div.recup{
+    text-align: left;
+    width: 100%;
+}
+
+div.recup h3{
+    margin-bottom: .5rem;
 }

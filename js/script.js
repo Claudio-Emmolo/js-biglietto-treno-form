@@ -30,4 +30,8 @@ button.addEventListener ("click", function (){
     discountGeneral = (calcTicket - discuntAge).toFixed(2);
 
     document.getElementById("price") .innerHTML = discountGeneral;
+
+    document.getElementById("recup-km") .innerHTML = "Chilometri:  " + km.value;
+    document.getElementById("recup-age") .innerHTML = "Età passegero: " + age.value;
+
 })
