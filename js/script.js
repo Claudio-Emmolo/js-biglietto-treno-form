@@ -27,5 +27,5 @@ button.addEventListener ("click", function (){
 
     discountGeneral = (calcTicket - discuntAge).toFixed(2);
 
-    console.log ("Il prezzo del biglietto è: " + discountGeneral);
+    document.getElementById("price") .innerHTML = discountGeneral;
 })
