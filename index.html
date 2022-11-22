@@ -12,13 +12,28 @@
 
     <body>
 
-        <main>
-            <h1>Biglietto treno</h1>
-            <input type="number" name="" id="kilometers" placeholder="Chilometri">
-            <input type="number" name="" id="age" placeholder="Età">
-            <button id="btn">Invia</button>
+        <main class="flex flex-center">
+            <section id="creation-tickets" class="flex flex-center flex-column">
 
-            <h2>Il prezzo del biglietto è di: <span id="price"></span> &euro;</h2>
+                <h1>Biglietto treno</h1>
+                
+                <div class="form-box">
+                    <div class="single-form">
+                        <label for="kilometers" class="d-block">Inserisci i chilometri da percorrere</label>
+                        <input type="number" name="" id="kilometers" placeholder="Chilometri">
+                    </div>
+
+                    <div class="single-form">
+                        <label for="kilometers" class="d-block">Inserisci l'età del passegero</label>
+                        <input type="number" name="" id="age" placeholder="Età">
+                    </div>
+
+                    <button id="btn" class="btn-decoration">Invia</button>
+                </div>
+                
+                <h2>Il prezzo del biglietto è di: <span id="price"></span> &euro;</h2>
+
+            </section>
         </main>
 
         <!-- Script JS -->

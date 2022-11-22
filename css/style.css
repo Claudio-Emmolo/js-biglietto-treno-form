@@ -1,0 +1,54 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.d-block{
+    display: block;
+}
+
+/* Buttons */
+.btn-decoration{
+    padding: .5rem 2rem;
+}
+
+/* Form Box */
+div.form-box{
+    text-align: center;
+
+    margin: 3rem 0;
+}
+
+div.form-box label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div.single-form{
+    margin-bottom: 3rem;
+}
