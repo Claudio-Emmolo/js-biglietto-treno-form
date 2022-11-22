@@ -7,7 +7,7 @@ const button = document.getElementById("btn");
 
 let calcTicket;
 
-let discuntAge;
+let discuntAge = 0;
 
 let discountGeneral
 
@@ -24,7 +24,6 @@ button.addEventListener ("click", function (){
     } else if (age.value >= 65){
         discuntAge = (calcTicket * 33.3 / 100);
     }
-
 
     discountGeneral = (calcTicket - discuntAge).toFixed(2);
 
