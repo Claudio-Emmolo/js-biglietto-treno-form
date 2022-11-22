@@ -13,6 +13,9 @@ body{
 
 main{
     height: 100vh;
+    background-image: url(../img/trian-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex{
@@ -30,6 +33,12 @@ main{
 
 .d-block{
     display: block;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Buttons */
@@ -51,4 +60,20 @@ div.form-box label{
 
 div.single-form{
     margin-bottom: 3rem;
+}
+
+div.single-form input{
+    height: 2rem;
+    width: 100%;
+}
+
+section#creation-tickets{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+span#price{
+    border-bottom: 2px solid red;
 }
